@@ -1,12 +1,5 @@
-# React + Vite
+# Cryptoplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a cryptocurrency information dashboard built using React and the CoinGecko API. The application allows users to access real-time data on various cryptocurrencies, displaying information such as current prices, market trends, and historical data. Developed with Vite for faster development and build processes, the project makes use of React Router DOM for handling navigation between different views, and React Google Charts to display interactive charts for data visualization. The user-friendly interface ensures a smooth experience for anyone looking to track and analyze cryptocurrency prices.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project demonstrates the ability to work with external APIs and integrate dynamic data into a React-based web application. By utilizing CoinGecko’s API, the application fetches and displays live cryptocurrency information in an intuitive, visually appealing format. The use of React Google Charts adds a layer of interactivity, allowing users to see trends and statistics in chart form. This project serves as a practical example of building a real-time, data-driven application with modern JavaScript tools and libraries, focusing on performance, usability, and responsiveness.
